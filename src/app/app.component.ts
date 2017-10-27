@@ -14,4 +14,8 @@ export class AppComponent {
     'description': "These tires are the very best",
     'inStock': 5
   };
+  activeEmoji: string;
+  changeEmoji(){
+    this.activeEmoji = this.emoji[Math.floor(Math.random() * this.emoji.length)];
+  }
 }
