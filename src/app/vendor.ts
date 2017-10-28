@@ -7,3 +7,4 @@ import '@angular/http';
 // 3rd Party
 import 'core-js';
 import 'rxjs';
+import 'angular-in-memory-web-api';
